@@ -2,7 +2,7 @@
 Author		: Elif Ozkan
 Create Date	: 15/10/2023
 Description	: This project converts three different coordinate representations into each other.
-Contact		: elifcozkan@gmail.com
+Contact		: elifcozkan@gmail.com (If you have suggestions please contact!)
 */
 
 #define _CRT_SECURE_NO_WARNINGS
@@ -16,7 +16,7 @@ int letterFlag = 0;
 
 int main(void) {
 
-	/* DMS */
+	/* DMS variables */
 	int latDegDMS = 0;
 	int latMinDMS = 0;
 	double latSecDMS = 0;
@@ -24,11 +24,11 @@ int main(void) {
 	int lonMinDMS = 0;
 	double lonSecDMS = 0;
 
-	/* DD */
+	/* DD variables */
 	double latDD = 0;
 	double lonDD = 0;
 
-	/* DDM */
+	/* DDM variables */
 	int latDegDDM = 0;
 	int lonDegDDM = 0;
 	double latDecMinDDM = 0;
@@ -62,7 +62,6 @@ tryAgain:
 		printf("You wrote a word! Please try again...\n");
 		return EXIT_FAILURE;
 	}
-
 
 	/* Letter Decision */
 	printf("Do coordinates have letter? (Y/N)");
